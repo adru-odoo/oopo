@@ -1,4 +1,5 @@
 import discord
+import re
 from discord import option
 from discord.ext import commands
 import emoji
