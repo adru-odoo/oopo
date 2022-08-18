@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+
+  oopo:
+    build: oopo
+    environment:
+      WAIT_HOSTS: mongo:27017
+
+  mongo:
+    image: mongo:4.2.5
