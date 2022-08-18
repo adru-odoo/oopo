@@ -9,6 +9,7 @@ COPY oopo.py oopo.py
 
 COPY email_cog.py email_cog.py
 COPY reaction_cog.py reaction_cog.py
+COPY message_cog.py message_cog.py
 
 RUN pip3 install -r requirements.txt
 
