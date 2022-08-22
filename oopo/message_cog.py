@@ -18,5 +18,5 @@ class MessageSend(commands.Cog):
         if not ctx.author.guild_permissions.administrator:
             await ctx.respond("Sorry, only Administrators can use this commmand.\n")
             return
+        await ctx.respond("Okay!", delete_after=0.1)
         await channel.send(message)
-        await ctx.respond("Okay!")
